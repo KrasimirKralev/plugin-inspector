@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Read OpenClaw manifest contract fields from its canonical key tuple when the manifest type derives its keys through `Partial<Record<...>>`, preserving inline object-type parsing for older targets.
+
 ### Changed
 
 - Update `eslint-scope` to 9.1.2 and align supported Node.js versions with its Node 22.13 and Node 24 requirements.
